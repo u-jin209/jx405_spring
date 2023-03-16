@@ -1,3 +1,4 @@
+<%@ taglib prefix="core" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: u
@@ -11,8 +12,13 @@
     <title>인덱스</title>
 </head>
 <body>
-    <h1>HELLO, WORLD!!!</h1>
-    <h2>${name}님 환영합니다.</h2>
-
+<form method="post" action="/user/auth">
+    아이디 : <input type="text" name="username" >
+    <br/>
+    비밀번호 : <input type="text" name="password" >
+    <button type="submit">로그인</button>
+</form>
+${message}
+<a href="/user/register/new">회원 가입하기 </a>
 </body>
 </html>

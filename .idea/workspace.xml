@@ -9,25 +9,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27177d34-21cb-4538-b127-9bf9eeb1b01e" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bit/spring/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bit/spring/controller/HomeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-5.3.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.3.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-5.3.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.3.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-5.3.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jcl-5.3.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-5.3.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-5.3.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/spring/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/spring/dispatcherServlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
+    <list default="true" id="27177d34-21cb-4538-b127-9bf9eeb1b01e" name="변경" comment="setting">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bit/spring/connector/MySqlConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bit/spring/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bit/spring/controller/ReplyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bit/spring/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bit/spring/model/BoardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bit/spring/model/ReplyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bit/spring/model/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bit/spring/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bit/spring/service/ReplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bit/spring/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/mybatis/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/mybatis/mapper/BoardMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bit/spring/connector/MySqlConnector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bit/spring/controller/BoardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bit/spring/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bit/spring/model/BoardDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bit/spring/model/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bit/spring/service/BoardService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bit/spring/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-j-8.0.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/protobuf-java-3.21.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/board/insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/board/showAll.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/board/showOne.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/board/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/user/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/user/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bit/spring/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bit/spring/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/bit/spring/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bit/spring/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring/dispatcherServlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring/dispatcherServlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +62,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="package-info" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -80,7 +104,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/u/IdeaProjects/jx405_spring/web",
+    "last_opened_file_path": "C:/Users/u/IdeaProjects/jx405_spring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,13 +112,14 @@
     "project.structure.last.edited": "아티팩트",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.32873562",
-    "settings.editor.selected.configurable": "configurable.group.language",
+    "settings.editor.selected.configurable": "editing.templates",
     "spring.configuration.checksum": "2a2d595e6ed9a0b24f027f2b63b134d6",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\u\IdeaProjects\jx405_spring\web\WEB-INF\views\board" />
       <recent name="C:\Users\u\IdeaProjects\jx405_spring\web\WEB-INF" />
     </key>
   </component>
@@ -113,6 +138,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <deployment>
         <artifact name="spring:Web exploded">
           <settings>
@@ -208,8 +234,19 @@
       <option name="presentableId" value="Default" />
       <updated>1678841139123</updated>
       <workItem from="1678841140290" duration="6364000" />
-      <workItem from="1678847624867" duration="228000" />
+      <workItem from="1678847624867" duration="5222000" />
+      <workItem from="1678856530184" duration="146000" />
+      <workItem from="1678856689153" duration="24155000" />
+      <workItem from="1678925187553" duration="7163000" />
     </task>
+    <task id="LOCAL-00001" summary="setting">
+      <created>1678847889983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678847889983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,5 +277,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting" />
   </component>
 </project>
