@@ -1,16 +1,12 @@
 package com.bit.spring.service;
 
-import com.bit.spring.connector.MySqlConnector;
-import com.bit.spring.model.BoardDTO;
 import com.bit.spring.model.UserDTO;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import javax.print.attribute.standard.MediaSize;
+import java.util.NavigableMap;
 
 @Service
 public class UserService {
@@ -26,6 +22,29 @@ public class UserService {
 
         return session.selectOne(NAMESPACE+".auth", attempt);
     }
+    public boolean validate(String username){
+        return session.selectOne(NAMESPACE+".validate",username) == null;
+    }
+    public UserDTO selectOne(int id) {
+
+        return session.selectOne(NAMESPACE+".selectOne", id);
+    }
+    public boolean register(UserDTO attempt){
+        if(validate(attempt.getUsername())){
+            session.insert(NAMESPACE+".register",attempt);
+            return true;
+        }else{
+            return false;
+        }
+    }
+    public void update(UserDTO attempt){
+        session.update(NAMESPACE+".update", attempt);
+    }
+    public void delete(int id){
+        session.delete(NAMESPACE+".delete",id);
+    }
+
+
 
 // //mybatis 이전코드
 //    private MySqlConnector connector;

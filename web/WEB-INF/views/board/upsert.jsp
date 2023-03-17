@@ -22,22 +22,30 @@
     </style>
 </head>
 <body>
-<form method="post" action="/board/insert">
+<form method="post" action="/board/upsert">
+    <input type="hidden" value="${board.id}" name="id">
     <div class="container">
         <div class="row h-100 align-items-center">
-            <div class="row">
+            <div class="row mb-1">
                 <div class="col">
 
-                    <label for="form-title">  제목 :</label>
-                    <input   class="form-control" type="text" id= "form-title"  name="title">
-                    <label for="form-content">  내용 :</label>
-                    <input class="form-control"  type="text"  id="form-content"  name="content">
+                    <label for="form-title">제목 :</label>
+                    <input  class="form-control" type="text" id= "form-title" value="${board.title}" name="title">
 
                 </div>
             </div>
+            <div class="row mb-3">
+                <div class="col">
 
-            <button class="btn btn-outline-light mt-5" type="submit"> 등록하기 </button>
-
+                    <label for="form-content">내용 :</label>
+                    <input  class="form-control" type="text"  id="form-content" value="${board.content}" name="content">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <button class="btn btn-outline-light mt-5" type="submit"> 등록하기 </button>
+                </div>
+            </div>
         </div>
     </div>
 </form>
